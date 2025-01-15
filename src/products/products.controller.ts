@@ -39,7 +39,7 @@ export class ProductsController {
 
   //@Delete(':id')
   @MessagePattern({ cmd: 'delete_product' })
-  remove(@Payload('id') id: number) {
+  remove(@Payload('id', ParseIntPipe) id: number) {
     return this.productsService.remove(id);
   }
 }
