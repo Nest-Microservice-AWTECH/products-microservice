@@ -20,6 +20,10 @@
     "noUnusedLocals": false,  // Desactiva advertencias de variables locales no usadas
     "noUnusedParameters": false,  // Desactiva advertencias de parámetros no usados
     "noImplicitReturns": false,  // Desactiva advertencias de retornos implícitos
-
-  }
+  },
+  "watchOptions": {
+    "watchFile": "dynamicPriorityPolling",
+    "watchDirectory": "dynamicPriorityPolling",
+    "excludeDirectories": ["**/node_modules", "dist"]
+   }
 }
