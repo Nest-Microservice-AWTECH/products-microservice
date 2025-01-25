@@ -11,3 +11,5 @@
 3. Crear archivo `.env` basado en el `env.template`
 4. Ejecutar migración de prisma `npx prisma migrate dev`
 5. Ejecutar `npm run star:dev`
+
+##Ejecutar desde Docker
